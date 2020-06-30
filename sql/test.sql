@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS "Expenses" (
 	"Date"	TEXT
 );
 CREATE TABLE IF NOT EXISTS "PaidBy" (
-	"Field1"	INTEGER,
-	"Field2"	INTEGER
+	"User1"	INTEGER,
+	"User2"	INTEGER
 );
 COMMIT;
