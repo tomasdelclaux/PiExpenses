@@ -9,4 +9,8 @@ CREATE TABLE IF NOT EXISTS "PaidBy" (
 	"User1"	INTEGER,
 	"User2"	INTEGER
 );
+CREATE TABLE IF NOT EXISTS "Groups" (
+	"Group"	INTEGER,
+	"User2"	INTEGER
+);
 COMMIT;
