@@ -1,0 +1,12 @@
+BEGIN TRANSACTION;
+CREATE TABLE IF NOT EXISTS "Expenses" (
+	"Quantity"	INTEGER,
+	"Description"	TEXT,
+	"Group"	TEXT,
+	"Date"	TEXT
+);
+CREATE TABLE IF NOT EXISTS "PaidBy" (
+	"Field1"	INTEGER,
+	"Field2"	INTEGER
+);
+COMMIT;
